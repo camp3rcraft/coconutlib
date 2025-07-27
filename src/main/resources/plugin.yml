@@ -1,0 +1,24 @@
+name: CoconutLib
+version: '${version}'
+main: com.camp3rcraft.coconutlib.CoconutLib
+api-version: '1.21'
+author: camp3rcraft
+description: Библиотека для создания мини-игр с системой управления аренами
+
+commands:
+  arena:
+    description: Команды для управления аренами
+    usage: /arena <create|delete|list|join|leave|info|regenerate> [параметры]
+    permission: coconutlib.arena.admin
+    permission-message: §cУ вас нет прав для использования этой команды!
+
+permissions:
+  coconutlib.arena.admin:
+    description: Полный доступ к управлению аренами
+    default: op
+  coconutlib.arena.join:
+    description: Возможность присоединяться к аренам
+    default: true
+  coconutlib.arena.leave:
+    description: Возможность покидать арены
+    default: true 

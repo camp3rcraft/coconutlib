@@ -1,0 +1,7 @@
+name: SimpleMinigame
+version: '1.0.0'
+main: com.camp3rcraft.simpleminigame.SimpleMinigame
+api-version: '1.21'
+author: camp3rcraft
+description: Простой пример мини-игры с использованием CoconutLib
+depend: [CoconutLib] 

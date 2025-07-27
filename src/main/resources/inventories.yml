@@ -1,0 +1,15 @@
+# CoconutLib - Сохраненные инвентари игроков
+# Этот файл автоматически создается и управляется плагином
+
+inventories:
+  # Пример структуры:
+  # player-uuid:
+  #   contents:
+  #     0: "DIAMOND_SWORD"
+  #     1: "BREAD"
+  #   armor:
+  #     0: "DIAMOND_HELMET"
+  #     1: "DIAMOND_CHESTPLATE"
+  #     2: "DIAMOND_LEGGINGS"
+  #     3: "DIAMOND_BOOTS"
+  #   offhand: "SHIELD" 

@@ -1,0 +1,34 @@
+# CoconutLib Configuration
+
+worlds:
+  default_environment: "NORMAL"
+  seed: 0
+  generate_structures: false
+
+scoreboard:
+  enabled: true
+  title: "§6§lАРЕНА"
+  lobby: "§aЛобби"
+  waiting: "§eОжидание игроков"
+  countdown: "§6Ожидание начала"
+  game: "§cИгра"
+  end: "§4Конец"
+
+tab:
+  enabled: true
+  header: "§6§lАРЕНА"
+  footer: "§7Игроков на арене: §e%players%"
+
+inventory:
+  clear_on_leave: true
+  save_on_join: true
+
+messages:
+  prefix: "§8[§6CoconutLib§8] §r"
+  arena_created: "§aАрена §e%arena% §aсоздана!"
+  arena_deleted: "§cАрена §e%arena% §cудалена!"
+  arena_joined: "§aВы присоединились к арене §e%arena%"
+  arena_left: "§cВы покинули арену §e%arena%"
+  arena_not_found: "§cАрена §e%arena% §cне найдена!"
+  arena_already_exists: "§cАрена §e%arena% §cуже существует!"
+  arena_regenerated: "§aАрена §e%arena% §aрегенерирована!" 
