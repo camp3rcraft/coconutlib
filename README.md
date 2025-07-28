@@ -1,5 +1,6 @@
 # CoconutLib
 
+[![](https://jitpack.io/v/camp3rcraft/coconutlib.svg)](https://jitpack.io/#camp3rcraft/coconutlib)
 Библиотека для удобного создания арен в Minecraft плагинах.
 
 ## 📖 Документация
@@ -23,7 +24,7 @@
 
 ## 📦 Установка
 
-### Через Jitpack
+### Через Jitpack (рекомендуется)
 
 #### Gradle (Kotlin DSL)
 ```kotlin
@@ -32,7 +33,10 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.camp3rcraft:CoconutLib:1.0.0")
+    // Последняя версия из ветки main:
+    implementation("com.github.camp3rcraft:CoconutLib:main-SNAPSHOT")
+    // Или стабильный релиз (если появится тег v1.0.0):
+    // implementation("com.github.camp3rcraft:CoconutLib:1.0.0")
 }
 ```
 
@@ -43,7 +47,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.camp3rcraft:CoconutLib:1.0.0'
+    implementation 'com.github.camp3rcraft:CoconutLib:main-SNAPSHOT'
+    // Или стабильный релиз:
+    // implementation 'com.github.camp3rcraft:CoconutLib:1.0.0'
 }
 ```
 
@@ -59,15 +65,19 @@ dependencies {
 <dependency>
     <groupId>com.github.camp3rcraft</groupId>
     <artifactId>CoconutLib</artifactId>
-    <version>1.0.0</version>
+    <version>main-SNAPSHOT</version>
+    <!-- Или <version>1.0.0</version> если появится тег -->
 </dependency>
 ```
 
 ### Ручная установка
 
-1. Скачайте JAR файл из [Releases](https://github.com/camp3rcraft/CoconutLib/releases)
-2. Поместите файл в папку `plugins/` вашего сервера
-3. Перезапустите сервер
+1. Перейдите на [Releases](https://github.com/camp3rcraft/coconutlib/releases)
+2. Скачайте последний jar-файл CoconutLib
+3. Поместите его в папку `plugins/` вашего сервера
+4. Перезапустите сервер
+
+---
 
 ## 🎯 Быстрый старт
 

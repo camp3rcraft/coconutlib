@@ -98,34 +98,36 @@ InventoryManager ← ConfigManager ← CoconutLib
 - **Minecraft**: Paper 1.21.4+
 - **Gradle**: 8.5+ (для сборки)
 
-### Установка через Jitpack
+### Установка через Jitpack (рекомендуется)
 
 #### Gradle (Kotlin DSL)
-
 ```kotlin
 repositories {
     maven { url = uri("https://jitpack.io") }
 }
 
 dependencies {
-    implementation("com.github.camp3rcraft:CoconutLib:1.0.0")
+    // Последняя версия из ветки main:
+    implementation("com.github.camp3rcraft:CoconutLib:main-SNAPSHOT")
+    // Или стабильный релиз (если появится тег v1.0.0):
+    // implementation("com.github.camp3rcraft:CoconutLib:1.0.0")
 }
 ```
 
 #### Gradle (Groovy)
-
 ```groovy
 repositories {
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'com.github.camp3rcraft:CoconutLib:1.0.0'
+    implementation 'com.github.camp3rcraft:CoconutLib:main-SNAPSHOT'
+    // Или стабильный релиз:
+    // implementation 'com.github.camp3rcraft:CoconutLib:1.0.0'
 }
 ```
 
 #### Maven
-
 ```xml
 <repositories>
     <repository>
@@ -137,16 +139,17 @@ dependencies {
 <dependency>
     <groupId>com.github.camp3rcraft</groupId>
     <artifactId>CoconutLib</artifactId>
-    <version>1.0.0</version>
+    <version>main-SNAPSHOT</version>
+    <!-- Или <version>1.0.0</version> если появится тег -->
 </dependency>
 ```
 
-### Установка на сервер
+### Ручная установка
 
-1. Скачайте JAR файл из [Releases](https://github.com/camp3rcraft/CoconutLib/releases)
-2. Поместите файл в папку `plugins/` вашего сервера
-3. Перезапустите сервер
-4. Настройте конфигурацию в `plugins/CoconutLib/config.yml`
+1. Перейдите на [Releases](https://github.com/camp3rcraft/coconutlib/releases)
+2. Скачайте последний jar-файл CoconutLib
+3. Поместите его в папку `plugins/` вашего сервера
+4. Перезапустите сервер
 
 ### Первоначальная настройка
 
