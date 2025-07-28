@@ -1,4 +1,4 @@
-# CoconutLib
+# 🥥CoconutLib
 
 [![](https://jitpack.io/v/camp3rcraft/coconutlib.svg)](https://jitpack.io/#camp3rcraft/coconutlib)
 
