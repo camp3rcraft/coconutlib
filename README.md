@@ -1,6 +1,7 @@
 # CoconutLib
 
 [![](https://jitpack.io/v/camp3rcraft/coconutlib.svg)](https://jitpack.io/#camp3rcraft/coconutlib)
+
 Библиотека для удобного создания арен в Minecraft плагинах.
 
 ## 📖 Документация
